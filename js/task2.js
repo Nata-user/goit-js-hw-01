@@ -2,7 +2,7 @@ const total = 100;
 const ordered = 50;
 let number = prompt('единиц товара в заказе');
 
-if (number >= total) {
+if (number > total) {
   alert('На складе недостаточно товаров!');
   
 }
